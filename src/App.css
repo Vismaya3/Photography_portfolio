@@ -1,3 +1,11 @@
+
+
+html {
+
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
 .App {
   text-align: center;
 }

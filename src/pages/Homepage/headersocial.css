@@ -1,0 +1,7 @@
+.header__socials{
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    margin-bottom:4rem;
+    padding-top: 1vw;
+}

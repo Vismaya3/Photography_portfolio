@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+#about{
+    margin-top: -5vw;
+}
+
+
+
+
+.head{
+    font-size: 4vw;
+    font-weight: 5vw;
+    margin-bottom: -3vw;
+    padding:0px;
+    margin-left: -70vw;
+   
+    color: rgb(134, 5, 5);
+    font-family: 'Cormorant SC', serif;
+}
+.abouthead{
+    background-color: aquamarine;
+
+}
+.logo img{
+    max-width:30%;
+    width:3vw;
+    height:3vw;
+   
+
+}
+.words{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-top: 3vw;
+}
+
+.me img{
+    width:25vw; 
+    max-width: 30vw; 
+    height:33vw;
+    margin-left: 13vw;
+    margin-top: 4vw;
+    margin-right: 6vw;
+    border: 0.3vw solid rgb(234, 197, 197);
+    border-radius: 2.5vw;
+    padding: 0.2vw;
+  
+  
+}
+
+
+.textcap{
+    font-family: 'Kalam', cursive;
+
+    font-size: 1.6vw;
+    font-weight: 2vw;
+    color:rgb(112, 10, 10)
+}
+.header_container{
+    max-width: 50vw;
+    padding:1vw;
+    color:blue;
+    margin-top: 2vw;
+}
+.hello{
+    font-family: 'Arima', cursive;
+    font-size: 3.5vw;
+    color:black;
+    margin-top: 2.5vw;
+    
+}
+.prasad{
+    font-family: 'Titan One', cursive;
+    color:rgb(93, 15, 15);
+}
+.pp{
+    font-size:2vw;
+    max-width:100%;
+    font-family: 'Bangers', cursive;
+    padding-bottom: 1.5vw;
+    padding-top: 1vw;
+  
+
+}
+
+

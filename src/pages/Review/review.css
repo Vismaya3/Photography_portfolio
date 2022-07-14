@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+.revhead{
+    font-size: 3vw;
+    color:purple;
+    font-family: 'Margarine', cursive;
+}
+
+
+.revflex-1{
+    display:flex;
+    padding-top: 3vw;
+}
+.revimg{
+    max-width: 50%;
+    margin-left: 2vw;
+    border-width: 1,;
+    
+}
+.revimg-1 img{
+    width:30vw;
+    height:30vw;
+    border-radius: 2rem;
+    padding:1vw;
+    margin-right:8vw;
+   
+
+}
+
+.revwords-1{
+    display: grid;
+    margin-right: 8vw;
+    margin-left: 5vw;
+    font-size: 2vw;
+    font-weight: 2vw;
+    margin-top: 3vw;
+    font-family: 'Edu SA Beginner', cursive;
+
+
+}
+.text-light{
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 1.8vw;
+}

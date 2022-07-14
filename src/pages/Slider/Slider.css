@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+.container-slider {
+    max-width: 60vw;
+    height: 35vw;
+    margin: 100px auto 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 0.5vw;
+  }
+  @media screen and (max-width: 700px){
+    .container-slider {
+      margin: 100px 10px 0;
+    }
+  }
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity ease-in-out 0.4s;
+  }
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .active-anim {
+    opacity: 1;
+  }
+  
+  .btn-slide {
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 3vw;
+    background: #f1f1f1;
+    border: 1px solid rgba(34, 34, 34, 0.287);
+    position: absolute;
+    display: flex;
+
+    
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .btn-slide img {
+    width: 25px;
+    height: 25px;
+    pointer-events: none;
+  }
+  .prev {
+    top: 50%;
+    left: 20px;
+    transform: translateY(-60%);
+  }
+  .next {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-60%);
+  }
+  
+  
+  .container-dots {
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+   
+  }
+  .dot {
+    width: 1.2vw;
+    height: 1.2vw;
+    border-radius: 30%;
+    border: 3px solid grey;
+    margin: 0 5px;
+    background: white;
+    
+  }
+  .dot.active {
+    background: rgb(32, 32, 32);
+  }
+  
+
+.title{
+  background-color: black;
+  margin-left: 19.3vw;
+  margin-right: 19.3vw;
+  padding-top: 0.6vw;
+  padding-bottom: 0.5vw;
+  font-family: 'Lato', sans-serif;
+  font-size: 2vw;
+  
+  
+  color:white;
+  font-weight: bold;
+  
+}
+
+.title span{
+  font-family: 'Edu SA Beginner', cursive;
+  
+}
+.header2{
+  display:center;
+  padding-top: 0.5vw;
+ 
+
+  font-family: 'Edu SA Beginner', cursive;
+  text-transform: uppercase;
+  color:rgb(224, 63, 90);
+  padding-left: 10vw;
+  font-weight: 2vw;
+  background-color: rgb(214, 238, 238);
+  
+  
+}

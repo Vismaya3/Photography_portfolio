@@ -1,0 +1,15 @@
+.fillers{
+    padding-top: 18vw;
+    padding-bottom: 10vw;
+}
+.caption{
+    color:grey;
+    font-size: 2.3vw;
+}
+.footer__socials{
+    display:flex;
+    justify-content: center;
+    gap:1rem;
+    margin-bottom:4rem;
+    padding-top: 3vw;
+}

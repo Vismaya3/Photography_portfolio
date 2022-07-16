@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assests/me.jpg'
-import Logo_1 from '../../assests/Logo_1.png'
+import Logo_1 from "../../assests/Logo_1.png"
 
 function About() {
  
@@ -10,9 +10,9 @@ function About() {
   <h1 className="abouthead">
       <div className="head">
         About me
-        </div>
+      </div>
         <div className="logo">
-          <img src={Logo_1} alt=" "/>
+          <img className="logoimg" src={Logo_1} alt=" "/>
         </div>
       </h1>
   <div className="words">

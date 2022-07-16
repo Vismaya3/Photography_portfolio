@@ -14,14 +14,14 @@ function Review() {
     <section id="reviewsec">
     <div className="review">
         <div className="revhead">
-            <h2>Some Kind Words</h2>
+            Some Kind Words
         </div>
         <div className="revflex-1">
             <div className="revimg-1">
-                <img src={IMG1}/>
+                <img src={IMG1} alt="img" loading="lazy" />
             </div>
             <div className="revwords-1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio excepturi earum necessitatibus quam ipsum ut in recusandae veritatis id labore, unde distinctio officia eveniet maxime delectus aut nam deleniti cum asperiores!</p>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio excepturi earum necessitatibus quam ipsum ut in recusandae veritatis id labore, unde distinctio officia eveniet maxime delectus aut nam deleniti cum asperiores!</p>
             </div>
 
         </div>
@@ -30,7 +30,7 @@ function Review() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio excepturi earum necessitatibus quam ipsum ut in recusandae veritatis id labore, unde distinctio officia eveniet maxime delectus aut nam deleniti cum asperiores!</p>
             </div>
             <div className="revimg-1">
-                <img src={IMG2}/>
+                <img src={IMG2} alt="img" loading='lazy'/>
             </div>
            
 

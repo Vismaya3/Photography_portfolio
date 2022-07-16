@@ -9,7 +9,6 @@ import IMG7 from '../../../assests/7.jpg'
 
 let Images=[
 
-
     {
         id:1,
         imgSrc:IMG1,

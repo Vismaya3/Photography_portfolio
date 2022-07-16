@@ -4,12 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 .container-slider {
     max-width: 60vw;
-    height: 35vw;
+    height: 400px;
     margin: 100px auto 0;
     position: relative;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    margin-top: 0.5vw;
+    margin-top: 20px;
   }
   @media screen and (max-width: 700px){
     .container-slider {
@@ -106,16 +106,14 @@
   
 }
 .header2{
-  display:center;
+  /* display:center; */
+  text-align: center;
   padding-top: 0.5vw;
- 
-
   font-family: 'Edu SA Beginner', cursive;
   text-transform: uppercase;
   color:rgb(224, 63, 90);
-  padding-left: 10vw;
-  font-weight: 2vw;
+  /* padding-left: 10vw; */
+  font-weight: 400;
   background-color: rgb(214, 238, 238);
-  
   
 }

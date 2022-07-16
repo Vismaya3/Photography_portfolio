@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap');
-/*.homeimage {
-    max-width: 50%;
-    width: -50px;
-    height: auto;
 
-}*/
 
 .start h1 {
     color: #333;
@@ -15,14 +10,13 @@
     line-height: 1.5;
     text-transform: uppercase;
     white-space: nowrap;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
-    width: 550px;
-  }
+}
 
   .start h1 span {
-    font-size: 40px;
-    margin-left: 40px;
+    /* font-size: 40px; */
+    /* margin-left: 40px; */
   }
  .message {
     background-color: blue;
@@ -42,11 +36,10 @@
 
   .buttons{
     display:flex;
-    row-gap: -1.5rem;
-    margin-top: 5vw;
-    margin-left: 5vw;
-    margin-bottom: 2vw;
-    
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
   }
 
 
@@ -132,21 +125,6 @@
 
 }
 .button1{
-    /*border: none;
-    color: white;
-    padding: 12px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: white; 
-  color: red; 
-  border: 2px solid yellow;
-  font-family: serif;
-  margin-left: 280px;*/
   
   background-color:yellowgreen;
   background-image: none;
@@ -176,7 +154,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 .button1:hover{
     box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
@@ -186,24 +164,29 @@
     box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 
+.both2{
+  width: 50vw;
+  /* margin: auto; */
+  margin-top: 60px;
+  padding: 20px;
+}
+
 .homesideimg {
-    width: 50vw;
-    height: 48vw;
+    width: 100%;
+    /* height: 48vw; */
     object-fit: fill;
-    margin-left: -60px;
-    margin-top: 10px;
+    /* margin-left: -60px; */
+    /* margin-top: 50px; */
     border: 2px solid black;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 5px;
 }
 
 .homehead h1{
-    margin-top: 1vw;
-    margin-left:-2vw;
+    /* margin-top: 30px; */
+    /* margin-left:-2vw; */
     text-transform: uppercase;
-    font-size: 1vw;
-    
-    
+    font-size: 50px;   
 }
 
 .caption{
@@ -211,8 +194,6 @@
 }
 
 .homecaption {
-
-
     animation: color-animation 4s linear infinite;
 }
 
@@ -354,27 +335,29 @@
     font-family: 'Arima', cursive;
     font-weight: 700;
     font-size: 1.7vw;
-    
-    margin-left: -60px;
-
-
-
+    margin-top: 40px;
+    /* margin-left: -60px; */
 }
 
 .both {
     display: flex;
     justify-content: space-around; 
     gap: 0.5rem;;
-   
 }
 .both1{
-    margin-top:-10vw;
-    max-width: 650px;
-    margin-right:vw;
+    /* margin-top:-10vw; */
+    /* max-width: 650px;
+    margin-right:vw; */
+    /* margin: auto; */
+    /* margin-top:-10vw; */
 
 }
-.homehead h1{
-    
+
+.homehead{
+  margin-top: 60px;
+}
+
+.homehead h1{   
     font-family: 'Fredoka One', cursive;
     font-size: 4vw;
     color:black;

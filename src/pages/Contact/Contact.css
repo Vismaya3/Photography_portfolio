@@ -162,7 +162,7 @@ textarea {
   background-color: rgb(132, 70, 70);
 }
 
-@media screen and(max-width:1024px) {
+/* @media screen and(max-width:1024px) {
   .conatiner.contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -172,5 +172,70 @@ textarea {
 @media screen and (max-width: 600px) {
   .container.contact__container {
     width: var(--container-width-sm);
+  }
+} */
+
+@media only screen and (max-width: 1023px)
+{
+  #contact{
+    min-height: 100vh;
+  }
+  .heading{
+    font-size: 30px;
+  }
+  .heading h5{
+    font-size: 20px;
+  }
+  .contacting{
+    flex-direction: column;
+  }
+  .innercomp{
+    flex-direction: column;
+  }
+  .about__me{
+    background: none;
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    margin: auto;
+  }
+  .about__me-image {
+    transform: none; 
+  }
+  .contact__options{
+    flex-direction: row;
+    /* width: 100vw; */
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  .form{
+    margin-top: 0px;
+    width: 100vw;
+    padding:0px ;
+  }
+  .forming{
+    /* width: 100vw; */
+    margin: 0px;
+  }
+  .fields{
+    /* height: max-content; */
+    margin: 0px;
+    width: 100%;
+  }
+  #message{
+    width: 100%;
+  }
+  .container.contact__container{
+    width: 100vw;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .submiting{
+    display: flex;
+    justify-content: center;
+    margin: auto;
   }
 }

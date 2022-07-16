@@ -21,14 +21,14 @@ const Babyshoot=(props)=> {
     BabyShoot👶
    </div>
     <div className={model?"model open":"model"}>
-      <img src={TempImgSrc}/>
+      <img alt=" " src={TempImgSrc}/>
       <AiFillCloseSquare onClick={()=>setModel(false)} />
     </div>
     <div className="gallery">
       {Images.map((Images,index)=>{
         return(
           <div className="pics" key={index} onClick={()=>getImg(Images.imgSrc)}>
-            <img src={Images.imgSrc} style={{width:'100%'}}/>
+            <img key={index+1} src={Images.imgSrc} alt=" " style={{width:'100%'}}/>
 
           </div>
         )

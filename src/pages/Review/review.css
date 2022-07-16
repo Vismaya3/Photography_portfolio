@@ -13,7 +13,7 @@
 
 }
 
-.revflex-1{
+.revflex-1 , .revflex-2{
     display:flex;
     flex-direction: row;
     padding-top: 50px;
@@ -22,21 +22,40 @@
     margin-left: 2vw;   
 }
 
-.revimg-1{
+.revimg-1 , .revimg-2{
     max-width: 500px;
     padding: 20px;
 }
 
-.revimg-1 img{
+.revimg-1 img , .revimg-2 img{
     width:100%;
     border-radius: 2rem;
     padding:1vw;
     object-fit: cover;
 }
 
-.revwords-1{
+.revwords-1 , .revwords-2{
     font-size: 30px;
     font-weight: 600;
     margin: auto;
     font-family: 'Edu SA Beginner', cursive;
+}
+
+@media only screen and (max-width: 1023px)
+{
+    .revflex-1{
+        flex-direction: column;
+    }
+    .revflex-2{
+        flex-direction: column-reverse;
+    }
+
+    .revimg-1, .revimg-2{
+        max-width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .revwords-1 , .revwords-2{
+        font-size: 20px;
+    }
 }

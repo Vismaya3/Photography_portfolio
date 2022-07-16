@@ -12,11 +12,11 @@ const Nav = () => {
   /*const[activeNav,setActiveNav]=useState('#')*/
   return (
     <nav>
-      <a href="#" /*onClick={()=>secActiveNav('#')} className={actively=== '#'? 'active':' '}*/><AiTwotoneHome size={25}/></a>
+      <a href=" "><AiTwotoneHome size={25}/></a>
       <a href="#services" /*onClick={()=>secActiveNav('#about')} className={actively=== '#about'? 'active':' '}*/><FaImages size={25}/></a>
       <a href="#about" /*onClick={()=>secActiveNav('#experience')} className={actively=== '#experinece'? 'active':' '}*/><BsInfoSquareFill size={25}/></a>
       <a href="#contact"/* onClick={()=>secActiveNav('#services')} className={actively=== '#services'? 'active':' '}*/><MdContactPhone size={25}/></a>
-      <a href="reviewsec"/* onClick={()=>secActiveNav('#contact')} className={actively=== '#contact'? 'active':' '}*/><MdReviews size={25}/></a>  
+      <a href="#reviewsec"/* onClick={()=>secActiveNav('#contact')} className={actively=== '#contact'? 'active':' '}*/><MdReviews size={25}/></a>  
    {/* /<a href="#contact"/><MdOutlineMessage size={25}/></a>*/}
       
     </nav>

@@ -25,11 +25,11 @@ function Review() {
             </div>
 
         </div>
-        <div className="revflex-1">
-        <div className="revwords-1">
+        <div className="revflex-2">
+        <div className="revwords-2">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio excepturi earum necessitatibus quam ipsum ut in recusandae veritatis id labore, unde distinctio officia eveniet maxime delectus aut nam deleniti cum asperiores!</p>
             </div>
-            <div className="revimg-1">
+            <div className="revimg-2">
                 <img src={IMG2} alt="img" loading='lazy'/>
             </div>
            
@@ -44,11 +44,11 @@ function Review() {
             </div>
 
         </div>
-        <div className="revflex-1">
-        <div className="revwords-1">
+        <div className="revflex-2">
+        <div className="revwords-2">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio excepturi earum necessitatibus quam ipsum ut in recusandae veritatis id labore, unde distinctio officia eveniet maxime delectus aut nam deleniti cum asperiores!</p>
             </div>
-            <div className="revimg-1">
+            <div className="revimg-2">
                 <img src={IMG2}/>
             </div>
            

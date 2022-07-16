@@ -45,17 +45,13 @@ export default function Slider(props) {
                 return (
                     <>
                         <div
-                            key={obj.id}
+                            key={index}
                             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}>
                              
-                            <Link to={obj.path}>
-                                
-                                
-                            <img
-                                src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpeg`} 
-                            >    
-                          </img>
-                          </Link>
+                            <Link to={obj.path}>                                
+                                <img key={index+1} src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpeg`} alt="" />    
+                          
+                            </Link>
                           
                         </div>
                     </>
@@ -68,6 +64,7 @@ export default function Slider(props) {
                 {Array.from({ length: 5 }).map((item, index) => (
                     <div
                         onClick={() => moveDot(index + 1)}
+                        key={index}
                         className={slideIndex === index + 1 ? "dot active" : "dot"}
                     ></div>
 

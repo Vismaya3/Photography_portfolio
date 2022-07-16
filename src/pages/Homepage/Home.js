@@ -41,12 +41,12 @@ function Homepage() {
                 </h4>
               </div>
               <div className="buttons">
-                <div class="button1">
+                <div className="button1">
                   <a href={prasad_photography} download className="btn">
                     Packages
                   </a>
                 </div>
-                <div class="button1">
+                <div className="button1">
                   <a href="" className="btn">
                     Dive In
                   </a>

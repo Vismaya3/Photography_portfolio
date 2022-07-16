@@ -5,3 +5,9 @@
     margin-bottom:4rem;
     padding-top: 1vw;
 }
+
+@media only screen and (max-width:1023px) {
+    .header__socials{
+        justify-content: space-evenly;
+    }
+}

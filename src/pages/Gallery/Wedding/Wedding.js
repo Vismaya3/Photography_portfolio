@@ -28,7 +28,7 @@ const Wedding=(props)=> {
       {Images.map((Images,index)=>{
         return(
           <div className="pics" key={index} onClick={()=>getImg(Images.imgSrc)}>
-            <img src={Images.imgSrc} style={{width:'100%'}}/>
+            <img alt=' ' key={index+1} src={Images.imgSrc} style={{width:'100%'}}/>
 
           </div>
         )
@@ -36,7 +36,7 @@ const Wedding=(props)=> {
       
     </div>
     <a href='https://www.instagram.com/prasad_photography00/?igshid=YmMyMTA2M2Y='>
-    <button class="button button4">MORE</button>
+    <button className="button button4">MORE</button>
     </a>
     
     </>

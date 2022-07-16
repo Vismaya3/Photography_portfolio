@@ -1,5 +1,5 @@
 nav{
-    background: rgba(113, 135, 206, 0.734);
+    background: rgba(138, 153, 216, 0.734);
     width:max-content;
     display:block;
     padding:0.7rem 1.7rem;
@@ -14,6 +14,9 @@ nav{
     backdrop-filter:blur(15px);
 }
 
+nav:hover{
+    background: rgba(113, 135, 206, 0.734);
+}
 
 nav a{
     background: transparent;
@@ -26,9 +29,10 @@ nav a{
 
 nav a:hover{
     background: rgba(0,0,0,0.3);
+    color: rgb(178, 191, 218);
 }
 
 nav a.active{
-    background:var(--color-bg);
-    color:var(--color-white);
+    /* background:var(--color-bg); */
+    /* color:var(--color-white); */
 }

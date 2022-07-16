@@ -114,6 +114,8 @@
 }
 .homepage{
     background-color:snow;
+    min-height: 100vh;
+
 }
 .home{
   background-color: #b2cecf;
@@ -173,18 +175,13 @@
 
 .homesideimg {
     width: 100%;
-    /* height: 48vw; */
     object-fit: fill;
-    /* margin-left: -60px; */
-    /* margin-top: 50px; */
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
 }
 
 .homehead h1{
-    /* margin-top: 30px; */
-    /* margin-left:-2vw; */
     text-transform: uppercase;
     font-size: 50px;   
 }
@@ -344,14 +341,6 @@
     justify-content: space-around; 
     gap: 0.5rem;;
 }
-.both1{
-    /* margin-top:-10vw; */
-    /* max-width: 650px;
-    margin-right:vw; */
-    /* margin: auto; */
-    /* margin-top:-10vw; */
-
-}
 
 .homehead{
   margin-top: 60px;
@@ -458,3 +447,23 @@
       filter: blur(0);
     }
   }
+
+@media only screen and (max-width: 1023px)
+{
+  .both{
+    flex-direction: column;
+  }
+  .both2{
+    width: 100vw;
+  }
+  .captiontext{
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .homehead{
+    margin-top: 20px;
+  }
+  .buttons{
+    margin-top: 0px;
+  }
+}

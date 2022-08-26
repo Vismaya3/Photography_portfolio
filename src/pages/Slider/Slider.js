@@ -48,7 +48,7 @@ export default function Slider(props) {
                             key={index}
                             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}>
                              
-                            <Link to={obj.path}>                                
+                            <Link key={index+2} to={obj.path}>                                
                                 <img key={index+1} src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpeg`} alt="" />    
                           
                             </Link>
@@ -80,7 +80,7 @@ export default function Slider(props) {
                         key={obj.id}
                         className={slideIndex === index + 1 ? "slide active-anim" : "slide"}>
                             
-                        <h3 className='title'>{obj.title}<span className='subtitle'><h2>{obj.subTitle}</h2></span></h3>
+                        <h3 key={index+2} className='title'>{obj.title}<span key={index+3} className='subtitle'><h2 key={index+5}>{obj.subTitle}</h2></span></h3>
                         
                     </div>
                 </>

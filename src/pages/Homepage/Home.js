@@ -14,9 +14,9 @@ function Homepage() {
           </div>
           <div className="both1">
             <div>
-              <h1 className="homehead">
+              <div className="homehead">
                 <h1>PRASAD PHOTOGRAPHY📸</h1>
-              </h1>
+              </div>
               <div className="caption">
                 <h4 className="captiontext">
                   <br />
